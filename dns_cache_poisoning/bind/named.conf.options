@@ -3,4 +3,6 @@ options {
     allow-query { any; };
     recursion yes;
     dnssec-validation no;
+    listen-on { any; };
+    listen-on-v6 { any; };
 };
